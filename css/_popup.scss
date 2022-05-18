@@ -1,0 +1,60 @@
+.popup{
+    display: none;
+    width: 25%;
+    border-radius: 15px;
+    border: 2px solid white;
+    height: 60vh;
+   position: fixed;
+   flex-flow: column;
+    background-color: rgb(206, 206, 206);
+    z-index: 99999999999999;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 16px 2px rgba(0, 0, 0, 0.85);
+form{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    width: 60%;
+    font-family: 'Poppins', sans-serif;
+    padding: 1em 1em;
+ 
+    
+    background:  transparent;
+    border: 3px solid rgb(51, 51, 51) ;
+    border-radius: 10px;
+    color: black;
+ 
+
+}
+
+}
+a{
+width: 60%;
+text-align: center;
+    border: 3px solid rgb(51, 51, 51);
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    padding: .8em 0em;
+}
+
+.btn:hover{
+   
+        background-color: rgb(152, 210, 51);
+       transition: .3s;
+}
+.cancel:hover{
+   
+    background-color: rgb(210, 51, 51);
+   transition: .3s;
+}
+}

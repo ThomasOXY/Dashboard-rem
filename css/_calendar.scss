@@ -1,0 +1,53 @@
+
+.window{
+    display: flex;
+    flex-flow: row;
+      .content{
+           width: 90%;
+           font-family: 'Poppins', sans-serif;
+           color: white;
+           display: flex;
+           align-items: center;
+           justify-content: center    ;
+     .akce{
+         display: grid;
+          grid-template-columns: 1fr 1fr 1fr 1fr ;
+          gap: 1em;
+     }
+           
+     .itm{
+         width: 8em; 
+       
+         border: 2px solid gray;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         border-radius: 15px;
+     
+         flex-flow: column;
+         .row{
+             display: flex;
+             flex-flow: row;
+             gap: 1em;
+         }
+     
+     h4{
+         margin-top: -10px;
+     }
+     i{
+         color: white;
+         font-size: 3em;
+         
+     }
+      }
+     
+     
+     
+          }
+  
+  
+  
+  }
+  
+  
+  
